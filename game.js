@@ -37,7 +37,7 @@ function addPlatforms() {
 
   platforms.create(0, 565, 'platform1');
   platforms.create(0, 0, 'wall1');
-  // platforms.create(220, 103, 'platform2');
+  platforms.create(247, 117, 'wall1');
   // //
   // platforms.create(747, 510, 'box');
   // platforms.create(747, 455, 'box');
@@ -102,9 +102,9 @@ window.onload = function () {
     //Load images
     game.load.image('platform1', 'platform.png');
     game.load.image('wall1', 'walls/platform1.png');
-    game.load.image('box', 'box2.png');
-    game.load.image('box2', 'box5.png');
-    game.load.image('box3', 'box6.png');
+    game.load.image('wall2', 'walls/platform2.png');
+    game.load.image('wall3', 'walls/platform3.png');
+    game.load.image('wall4', 'walls/platform4.png');
 
 
 
