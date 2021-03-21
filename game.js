@@ -41,12 +41,7 @@ function addPlatforms() {
   platforms.create(494, 0, 'wall3');
   platforms.create(720, 85, 'wall4');
   // //
-  // platforms.create(747, 510, 'box');
-  // platforms.create(747, 455, 'box');
-  // platforms.create(747, 400, 'box');
-  // platforms.create(692, 510, 'box');
-  // platforms.create(455, 309, 'box2');
-  // platforms.create(357, 215, 'box3');
+  platforms.create(217, 505, 'box');
 
   platforms.setAll('body.immovable', true);
 }
@@ -107,6 +102,8 @@ window.onload = function () {
     game.load.image('wall2', 'walls/platform2.png');
     game.load.image('wall3', 'walls/platform3.png');
     game.load.image('wall4', 'walls/platform4.png');
+
+    game.load.image('box', 'box.png');
 
 
 
