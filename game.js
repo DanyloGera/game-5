@@ -34,8 +34,21 @@ function addPlatforms() {
   platforms.create(494, 0, 'wall3');
   platforms.create(720, 85, 'wall4');
   // //
-  platforms.create(217, 505, 'box');
 
+
+  platforms.setAll('body.immovable', true);
+}
+function addSecondBox() {
+  platforms = game.add.physicsGroup();
+
+  platforms.create(0, 565, 'platform1');
+  platforms.create(0, 0, 'wall1');
+  platforms.create(247, 117, 'wall2');
+  platforms.create(494, 0, 'wall3');
+  platforms.create(720, 85, 'wall4');
+  // //
+  platforms.create(217, 505, 'box');
+// //
   platforms.setAll('body.immovable', true);
 }
 
@@ -58,8 +71,9 @@ function createBadge() {
 // when the player collects an item on the screen
 function itemHandler(player, item) {
   item.kill();
- if (item.key === 'blue') {
+ if (item.key === 'letter') {
      currentScore = currentScore + 10;
+     addSecondBox();
   }else if (item.key === 'orange') {
      currentScore = currentScore + 10;
   }else if (item.key === ' yello') {
