@@ -39,6 +39,7 @@ function addPlatforms() {
   platforms.create(0, 0, 'wall1');
   platforms.create(247, 117, 'wall2');
   platforms.create(494, 0, 'wall3');
+  platforms.create(720, 85, 'wall4');
   // //
   // platforms.create(747, 510, 'box');
   // platforms.create(747, 455, 'box');
