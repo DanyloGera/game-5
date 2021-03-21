@@ -36,7 +36,7 @@ function addPlatforms() {
   platforms = game.add.physicsGroup();
 
   platforms.create(0, 565, 'platform1');
-  // platforms.create(538, 103, 'platform2');
+  platforms.create(0, 0, 'wall1');
   // platforms.create(220, 103, 'platform2');
   // //
   // platforms.create(747, 510, 'box');
@@ -101,7 +101,7 @@ window.onload = function () {
 
     //Load images
     game.load.image('platform1', 'platform.png');
-    game.load.image('platform2', 'platform2.png');
+    game.load.image('wall1', 'platform1.png');
     game.load.image('box', 'box2.png');
     game.load.image('box2', 'box5.png');
     game.load.image('box3', 'box6.png');
