@@ -33,8 +33,9 @@ function addPlatforms() {
   platforms.create(247, 117, 'wall2');
   platforms.create(494, 0, 'wall3');
   platforms.create(720, 85, 'wall4');
-  // //
 
+  // //
+platforms.create(217, 505, 'box');
 
   platforms.setAll('body.immovable', true);
 }
@@ -48,6 +49,7 @@ function addSecondBox() {
   platforms.create(720, 85, 'wall4');
   // //
   platforms.create(217, 505, 'box');
+  platforms.create(217, 411, 'box');
 // //
   platforms.setAll('body.immovable', true);
 }
