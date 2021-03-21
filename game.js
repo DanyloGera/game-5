@@ -101,7 +101,7 @@ window.onload = function () {
 
     //Load images
     game.load.image('platform1', 'platform.png');
-    game.load.image('wall1', 'platform1.png');
+    game.load.image('wall1', 'walls/platform1.png');
     game.load.image('box', 'box2.png');
     game.load.image('box2', 'box5.png');
     game.load.image('box3', 'box6.png');
