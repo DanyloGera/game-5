@@ -153,7 +153,7 @@ window.onload = function () {
     timer1();
     this.add.image(0, 0, 'background');
 
-    player = game.add.sprite(200, 457, 'player');
+    player = game.add.sprite(100, 457, 'player');
     player.animations.add('walk');
     player.anchor.setTo(0.5, 1);
     game.physics.arcade.enable(player);
