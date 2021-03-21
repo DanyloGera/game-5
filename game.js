@@ -16,15 +16,8 @@ var winningScore = 300;
 function addItems() {
   items = game.add.physicsGroup();
 
-  // createItem(464, 520, 'blue');
-  // createItem(534, 520, 'violet');
-  // createItem(604, 520, 'green');
-  // createItem(760, 350, 'yellow');
-  // createItem(550, 50, 'blue');
-  // createItem(600, 50, 'violet');
-  // createItem(240, 50, 'yellow');
-  // createItem(290, 50, 'orange');
-  // createItem(455, 250, 'orange');
+  createItem(220, 388, 'letter');
+
 }
 
 
@@ -109,15 +102,15 @@ window.onload = function () {
 
     //Load spritesheets
     game.load.spritesheet('player', 'chalkers.png',  48, 62 );
-    game.load.spritesheet('coin1', 'coin.png', 36, 44);
-    game.load.spritesheet('openbox', 'box3.png', { frameWidth: 50, frameHeight: 50 });
-    game.load.spritesheet('letter', 'envelope/letter1.png', 36, 44);
-    game.load.spritesheet('blue', 'envelope/blue.png', 36, 44);
-    game.load.spritesheet('yellow', 'envelope/yellow.png', 36, 44);
-    game.load.spritesheet('green', 'envelope/green.png', 36, 44);
-    game.load.spritesheet('red', 'envelope/red.png', 36, 44);
-    game.load.spritesheet('violet', 'envelope/violet.png', 36, 44);
-    game.load.spritesheet('orange', 'envelope/orange.png', 36, 44);
+    // game.load.spritesheet('coin1', 'coin.png', 36, 44);
+    // game.load.spritesheet('openbox', 'box3.png', { frameWidth: 50, frameHeight: 50 });
+    game.load.spritesheet('letter', 'letter1.png', 36, 44);
+    // game.load.spritesheet('blue', 'envelope/blue.png', 36, 44);
+    // game.load.spritesheet('yellow', 'envelope/yellow.png', 36, 44);
+    // game.load.spritesheet('green', 'envelope/green.png', 36, 44);
+    // game.load.spritesheet('red', 'envelope/red.png', 36, 44);
+    // game.load.spritesheet('violet', 'envelope/violet.png', 36, 44);
+    // game.load.spritesheet('orange', 'envelope/orange.png', 36, 44);
 
 
 
