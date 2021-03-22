@@ -127,10 +127,10 @@ function itemHandler(player, item) {
      currentScore = currentScore + 10;
      addSecondBox();
      addNextItems();
-  }else if (item.key === 'orange') {
+  }else if (item.key === 'letter-blue') {
      currentScore = currentScore + 10;
-  }else if (item.key === ' yello') {
-     currentScore = currentScore + 10;
+  }else if (item.key === ' letter-red') {
+     alert("Не бери червоні листи!");
   }else if (item.key === 'green') {
      currentScore = currentScore + 10;
   }else if (item.key === 'violet') {
