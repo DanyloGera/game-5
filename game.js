@@ -45,7 +45,7 @@ platforms.create(690, 503, 'box');
 platforms.create(548, 413, 'box3');
 platforms.create(690, 338, 'box');
 platforms.create(548, 270, 'box');
-platforms.create(665, 185, 'box3');
+platforms.create(662, 185, 'box3');
 platforms.create(548, 134, 'box');
 //
 platforms.create(301, 184, 'box2');
@@ -77,7 +77,7 @@ platforms.create(690, 503, 'box');
 platforms.create(548, 413, 'box3');
 platforms.create(690, 338, 'box');
 platforms.create(548, 270, 'box');
-platforms.create(665, 185, 'box3');
+platforms.create(662, 185, 'box3');
 platforms.create(548, 134, 'box');
 //
   platforms.setAll('body.immovable', true);
