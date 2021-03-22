@@ -40,6 +40,10 @@ function addNextItems() {
   createItem(548, 220, 'letter-blue');
   createItem(662, 135, 'letter-blue');
   createItem(548, 84, 'letter-blue');
+
+  createItem(759, 36, 'letter2');
+
+
 }
 function addLastItems() {
   items = game.add.physicsGroup();
@@ -144,8 +148,8 @@ function itemHandler(player, item) {
      currentScore = currentScore + 10;
   }else if (item.key === ' letter-red') {
      alert("Не бери червоні листи!");
-  }else if (item.key === 'green') {
-     currentScore = currentScore + 10;
+  }else if (item.key === 'letter2') {
+     addLastItems();
   }else if (item.key === 'violet') {
      currentScore = currentScore + 10;
   }
@@ -187,6 +191,7 @@ window.onload = function () {
     // game.load.spritesheet('coin1', 'coin.png', 36, 44);
     // game.load.spritesheet('openbox', 'box3.png', { frameWidth: 50, frameHeight: 50 });
     game.load.spritesheet('letter1', 'blue.png', 36, 44);
+    game.load.spritesheet('letter2', 'blue.png', 36, 44);
     game.load.spritesheet('letter-blue', 'blue.png', 36, 44);
     game.load.spritesheet('letter-red', 'red.png', 36, 44);
     // game.load.spritesheet('blue', 'envelope/blue.png', 36, 44);
