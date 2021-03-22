@@ -18,16 +18,10 @@ function addItems() {
 
   createItem(210, 325, 'letter1');
 
-
-}
-
-function addNextItems() {
-  items = game.add.physicsGroup();
-
   createItem(80, 329, 'letter-blue');
   createItem(217, 229, 'letter-blue');
   createItem(80, 136, 'letter-blue');
-// second hall items
+  // second hall items
   createItem(325, 134, 'letter-red');
   createItem(430, 291, 'letter-red');
   createItem(300, 241, 'letter-red');
@@ -42,6 +36,13 @@ function addNextItems() {
   createItem(548, 84, 'letter-blue');
 
   createItem(759, 36, 'letter2');
+
+}
+
+function addNextItems() {
+  items = game.add.physicsGroup();
+
+
 
 
 }
@@ -139,7 +140,7 @@ function itemHandler(player, item) {
  if (item.key === 'letter1') {
      currentScore = currentScore + 10;
      addSecondBox();
-     addNextItems();
+     // addNextItems();
   }else if (item.key === 'letter-blue') {
      currentScore = currentScore + 10;
   }else if (item.key === ' letter-red') {
