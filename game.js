@@ -21,7 +21,7 @@ function addItems() {
   createItem(325, 134, 'letter-red');
   createItem(430, 291, 'letter-red');
   createItem(401, 184, 'letter-blue');
-  createItem(306, 341 'letter-blue');
+  createItem(306, 341, 'letter-blue');
 }
 
 
