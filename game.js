@@ -51,6 +51,7 @@ function addPlatforms() {
   // //
 
 platforms.create(80, 379, 'box');
+platforms.create(157, 279, 'box');
 platforms.create(217, 505, 'box');
 //
 platforms.create(690, 503, 'box');
@@ -83,7 +84,7 @@ platforms.create(217, 279, 'box');
 platforms.create(80, 186, 'box');
 // //
 platforms.create(301, 184, 'box2');
-platforms.create(317, 279, 'box');
+platforms.create(157, 279, 'box');
 platforms.create(406, 341, 'box2');
 //
 platforms.create(690, 503, 'box');
