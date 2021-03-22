@@ -143,7 +143,7 @@ function itemHandler(player, item) {
   }else if (item.key === 'letter-blue') {
      currentScore = currentScore + 10;
   }else if (item.key === ' letter-red') {
-     alert("Не бери червоні листи!");
+     alert("Ви придбали шкідливий товар!");
   }else if (item.key === 'letter2') {
      addLastItems();
   }else if (item.key === 'violet') {
