@@ -41,8 +41,13 @@ function addNextItems() {
   createItem(662, 135, 'letter-blue');
   createItem(548, 84, 'letter-blue');
 }
-
-
+function addLastItems() {
+  items = game.add.physicsGroup();
+  // second hall items
+  createItem(325, 134, 'letter-red');
+  createItem(430, 291, 'letter-red');
+  createItem(300, 241, 'letter-red');
+}
 
 
 // add platforms to the game
