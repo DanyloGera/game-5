@@ -17,8 +17,8 @@ function addItems() {
   items = game.add.physicsGroup();
 
   createItem(215, 325, 'letter-blue');
-  createItem(325, 144, 'letter-red');
-  createItem(430, 301, 'letter-red');
+  createItem(325, 134, 'letter-red');
+  createItem(430, 291, 'letter-red');
 
 }
 
