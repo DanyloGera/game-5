@@ -54,6 +54,8 @@ function addSecondBox() {
 platforms.create(80, 379, 'box');
 platforms.create(217, 411, 'box');
 platforms.create(80, 497, 'box');
+
+platforms.create(217, 279, 'box');
 // //
   platforms.setAll('body.immovable', true);
 }
