@@ -10,7 +10,7 @@ var text;
 var winningMessage;
 var won = false;
 var currentScore = 230;
-var winningScore = 300;
+var winningScore = 350;
 
 // add collectable items to the game
 function addItems() {
@@ -115,7 +115,7 @@ function createItem(left, top, image) {
 // create the winning badge and add to screen
 function createBadge() {
   badges = game.add.physicsGroup();
-  var badge = badges.create(720, 35, 'badge');
+  var badge = badges.create(521, 497, 'badge');
   badge.animations.add('spin');
   badge.animations.play('spin', 10, true);
 }
