@@ -20,8 +20,8 @@ function addItems() {
 
   createItem(325, 134, 'letter-red');
   createItem(430, 291, 'letter-red');
-  createItem(461, 184, 'letter-blue');
-  createItem(366, 341, 'letter-blue');
+  createItem(461, 174, 'letter-blue');
+  createItem(366, 331, 'letter-blue');
 }
 
 
