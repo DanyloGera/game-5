@@ -70,7 +70,14 @@ platforms.create(80, 186, 'box');
 // //
 platforms.create(301, 184, 'box2');
 platforms.create(406, 341, 'box2');
-
+//
+platforms.create(690, 503, 'box');
+platforms.create(548, 413, 'box');
+platforms.create(690, 338, 'box');
+platforms.create(548, 270, 'box');
+platforms.create(690, 185, 'box');
+platforms.create(548, 134, 'box');
+//
   platforms.setAll('body.immovable', true);
 }
 
