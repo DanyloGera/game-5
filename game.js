@@ -44,8 +44,8 @@ platforms.create(217, 505, 'box');
 function addSecondBox() {
   platforms = game.add.physicsGroup();
 
-  platforms.create(40, 565, 'platform1');
-  platforms.create(0, 0, 'wall1');
+  platforms.create(0, 565, 'platform1');
+  platforms.create(0, 40, 'wall1');
   platforms.create(247, 117, 'wall2');
   platforms.create(494, 0, 'wall3');
   platforms.create(720, 85, 'wall4');
