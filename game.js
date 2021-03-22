@@ -117,6 +117,7 @@ function itemHandler(player, item) {
  if (item.key === 'letter-blue') {
      currentScore = currentScore + 10;
      addSecondBox();
+     addNextItems();
   }else if (item.key === 'orange') {
      currentScore = currentScore + 10;
   }else if (item.key === ' yello') {
