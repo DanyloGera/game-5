@@ -90,7 +90,7 @@ platforms.create(548, 134, 'box');
 function createItem(left, top, image) {
   var item = items.create(left, top, image);
   item.animations.add('spin');
-  item.animations.play('spin', 5, true);
+  item.animations.play('spin', 8, true);
 }
 
 // create the winning badge and add to screen
