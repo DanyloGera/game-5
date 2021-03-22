@@ -16,7 +16,7 @@ var winningScore = 300;
 function addItems() {
   items = game.add.physicsGroup();
 
-  createItem(220, 343, 'letter');
+  createItem(220, 333, 'letter');
 
 }
 
@@ -205,7 +205,7 @@ window.onload = function () {
     }
 
     if (jumpButton.isDown && (player.body.onFloor() || player.body.touching.down)) {
-      player.body.velocity.y = -300;
+      player.body.velocity.y = -330;
     }
     // when the player winw the game
     if (won) {
