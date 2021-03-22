@@ -18,13 +18,22 @@ function addItems() {
 
   createItem(210, 325, 'letter-blue');
 
+
+}
+
+function addNextItems() {
+  items = game.add.physicsGroup();
+
+  createItem(80, 329, 'letter-blue');
+  createItem(217, 229, 'letter-blue');
+  createItem(80, 136, 'letter-blue');
+//
   createItem(325, 134, 'letter-red');
   createItem(430, 291, 'letter-red');
   createItem(300, 241, 'letter-red');
   createItem(461, 174, 'letter-blue');
   createItem(366, 331, 'letter-blue');
 }
-
 
 
 
@@ -66,10 +75,10 @@ function addSecondBox() {
   platforms.create(720, 85, 'wall4');
   // //
   platforms.create(217, 505, 'box');
-platforms.create(80, 379, 'box');
 platforms.create(217, 411, 'box');
 platforms.create(80, 497, 'box');
 
+platforms.create(80, 379, 'box');
 platforms.create(217, 279, 'box');
 platforms.create(80, 186, 'box');
 // //
