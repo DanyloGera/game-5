@@ -83,7 +83,7 @@ platforms.create(217, 279, 'box');
 platforms.create(80, 186, 'box');
 // //
 platforms.create(301, 184, 'box2');
-platforms.create(217, 379, 'box');
+platforms.create(317, 279, 'box');
 platforms.create(406, 341, 'box2');
 //
 platforms.create(690, 503, 'box');
