@@ -61,6 +61,9 @@ platforms.create(80, 497, 'box');
 platforms.create(217, 279, 'box');
 platforms.create(80, 186, 'box');
 // //
+platforms.create(301, 184, 'box2');
+platforms.create(406, 341, 'box2');
+
   platforms.setAll('body.immovable', true);
 }
 
