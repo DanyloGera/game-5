@@ -41,39 +41,40 @@ function addNextItems() {
 // add platforms to the game
 function addPlatforms() {
   platforms = game.add.physicsGroup();
-
+//walls
   platforms.create(0, 565, 'platform1');
   platforms.create(0, 40, 'wall1');
   platforms.create(247, 117, 'wall2');
   platforms.create(494, 0, 'wall3');
   platforms.create(720, 85, 'wall4');
 
-  // //
+  // first boxes
 
 platforms.create(80, 379, 'box');
 platforms.create(217, 505, 'box');
-//
+//second hall
 platforms.create(690, 503, 'box');
 platforms.create(548, 413, 'box3');
 platforms.create(690, 338, 'box');
 platforms.create(548, 270, 'box');
 platforms.create(662, 185, 'box3');
 platforms.create(548, 134, 'box');
-//
+// third hall
 platforms.create(301, 184, 'box2');
+platforms.create(317, 279, 'box');
 platforms.create(406, 341, 'box2');
 
   platforms.setAll('body.immovable', true);
 }
 function addSecondBox() {
   platforms = game.add.physicsGroup();
-
+//walls
   platforms.create(0, 565, 'platform1');
   platforms.create(0, 40, 'wall1');
   platforms.create(247, 117, 'wall2');
   platforms.create(494, 0, 'wall3');
   platforms.create(720, 85, 'wall4');
-  // //
+  // first hall`s boxes
   platforms.create(217, 505, 'box');
 platforms.create(217, 411, 'box');
 platforms.create(80, 497, 'box');
@@ -81,11 +82,11 @@ platforms.create(80, 497, 'box');
 platforms.create(80, 379, 'box');
 platforms.create(217, 279, 'box');
 platforms.create(80, 186, 'box');
-// //
+// second hall
 platforms.create(301, 184, 'box2');
 platforms.create(317, 279, 'box');
 platforms.create(406, 341, 'box2');
-//
+// third hall
 platforms.create(690, 503, 'box');
 platforms.create(548, 413, 'box3');
 platforms.create(690, 338, 'box');
