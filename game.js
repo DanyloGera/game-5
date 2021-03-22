@@ -203,7 +203,7 @@ window.onload = function () {
 
 
 
-    // game.load.spritesheet('badge', 'badge.png', 42, 54);
+    game.load.spritesheet('badge', 'badge.png', 42, 54);
     // game.load.spritesheet('poison', 'poison.png', 32, 32);
     // game.load.spritesheet('star', 'star.png', 32, 32);
   }
