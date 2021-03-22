@@ -40,7 +40,7 @@ platforms.create(80, 379, 'box');
 platforms.create(217, 505, 'box');
 //
 platforms.create(301, 184, 'box2');
-platforms.create(436, 335, 'box2');
+platforms.create(406, 341, 'box2');
 
   platforms.setAll('body.immovable', true);
 }
