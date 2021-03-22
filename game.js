@@ -38,6 +38,8 @@ function addPlatforms() {
 
 platforms.create(80, 379, 'box');
 platforms.create(217, 505, 'box');
+//
+platforms.create(301, 184, 'box2');
 
   platforms.setAll('body.immovable', true);
 }
@@ -120,6 +122,7 @@ window.onload = function () {
     game.load.image('wall4', 'walls/platform4.png');
 
     game.load.image('box', 'box.png');
+    game.load.image('box2', 'box2.png');
 
 
 
