@@ -16,7 +16,7 @@ var winningScore = 300;
 function addItems() {
   items = game.add.physicsGroup();
 
-  createItem(215, 325, 'letter-blue');
+  createItem(210, 325, 'letter-blue');
   createItem(325, 134, 'letter-red');
   createItem(430, 291, 'letter-red');
 
