@@ -27,12 +27,19 @@ function addNextItems() {
   createItem(80, 329, 'letter-blue');
   createItem(217, 229, 'letter-blue');
   createItem(80, 136, 'letter-blue');
-//
+// second hall items
   createItem(325, 134, 'letter-red');
   createItem(430, 291, 'letter-red');
   createItem(300, 241, 'letter-red');
   createItem(461, 174, 'letter-blue');
   createItem(366, 331, 'letter-blue');
+  // third hall items
+  createItem(690, 447, 'letter-blue');
+  createItem(548, 363, 'letter-blue');
+  createItem(690, 228, 'letter-blue');
+  createItem(548, 220, 'letter-blue');
+  createItem(662, 135, 'letter-blue');
+  createItem(548, 84, 'letter-blue');
 }
 
 
