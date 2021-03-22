@@ -143,7 +143,7 @@ window.onload = function () {
 
     game.load.image('box', 'box.png');
     game.load.image('box2', 'box2.png');
-    game.load.image('box4', 'box3.png');
+    game.load.image('box3', 'box3.png');
 
 
 
