@@ -51,7 +51,6 @@ function addPlatforms() {
   // //
 
 platforms.create(80, 379, 'box');
-platforms.create(157, 279, 'box');
 platforms.create(217, 505, 'box');
 //
 platforms.create(690, 503, 'box');
