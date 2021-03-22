@@ -10,7 +10,7 @@ var text;
 var winningMessage;
 var won = false;
 var currentScore = 230;
-var winningScore = 350;
+var winningScore = 360;
 
 // add collectable items to the game
 function addItems() {
@@ -145,6 +145,7 @@ function itemHandler(player, item) {
   }else if (item.key === ' letter-red') {
      alert("Ви придбали шкідливий товар!");
   }else if (item.key === 'letter2') {
+    currentScore = currentScore + 10;
      addLastItems();
   }else if (item.key === 'violet') {
      currentScore = currentScore + 10;
