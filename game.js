@@ -16,7 +16,7 @@ var winningScore = 300;
 function addItems() {
   items = game.add.physicsGroup();
 
-  createItem(220, 388, 'letter');
+  createItem(220, 333, 'letter');
 
 }
 
@@ -37,6 +37,7 @@ function addPlatforms() {
   // //
 
 platforms.create(80, 379, 'box');
+platforms.create(217, 505, 'box');
 
   platforms.setAll('body.immovable', true);
 }
@@ -51,6 +52,7 @@ function addSecondBox() {
   // //
   platforms.create(217, 505, 'box');
 platforms.create(80, 379, 'box');
+platforms.create(217, 411, 'box');
 // //
   platforms.setAll('body.immovable', true);
 }
