@@ -61,7 +61,7 @@ platforms.create(662, 185, 'box3');
 platforms.create(548, 134, 'box');
 // second hall
 platforms.create(301, 184, 'box2');
-platforms.create(317, 279, 'box');
+platforms.create(287, 279, 'box');
 platforms.create(406, 341, 'box2');
 
   platforms.setAll('body.immovable', true);
@@ -84,7 +84,7 @@ platforms.create(217, 279, 'box');
 platforms.create(80, 186, 'box');
 // second hall
 platforms.create(301, 184, 'box2');
-platforms.create(317, 279, 'box');
+platforms.create(287, 279, 'box');
 platforms.create(406, 341, 'box2');
 // third hall
 platforms.create(690, 503, 'box');
