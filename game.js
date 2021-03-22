@@ -16,7 +16,7 @@ var winningScore = 300;
 function addItems() {
   items = game.add.physicsGroup();
 
-  createItem(210, 325, 'letter-blue');
+  createItem(210, 325, 'letter1');
 
 
 }
@@ -114,7 +114,7 @@ function createBadge() {
 // when the player collects an item on the screen
 function itemHandler(player, item) {
   item.kill();
- if (item.key === 'letter-blue') {
+ if (item.key === 'letter1') {
      currentScore = currentScore + 10;
      addSecondBox();
      addNextItems();
@@ -164,6 +164,7 @@ window.onload = function () {
     game.load.spritesheet('player', 'chalkers.png',  48, 62 );
     // game.load.spritesheet('coin1', 'coin.png', 36, 44);
     // game.load.spritesheet('openbox', 'box3.png', { frameWidth: 50, frameHeight: 50 });
+    game.load.spritesheet('letter1', 'blue.png', 36, 44);
     game.load.spritesheet('letter-blue', 'blue.png', 36, 44);
     game.load.spritesheet('letter-red', 'red.png', 36, 44);
     // game.load.spritesheet('blue', 'envelope/blue.png', 36, 44);
