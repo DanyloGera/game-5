@@ -41,11 +41,11 @@ function addPlatforms() {
 platforms.create(80, 379, 'box');
 platforms.create(217, 505, 'box');
 //
-platforms.create(690, 503, 'box3');
+platforms.create(690, 503, 'box');
 platforms.create(548, 413, 'box3');
-platforms.create(690, 338, 'box3');
+platforms.create(690, 338, 'box');
 platforms.create(548, 270, 'box3');
-platforms.create(690, 185, 'box3');
+platforms.create(690, 185, 'box');
 platforms.create(548, 134, 'box3');
 //
 platforms.create(301, 184, 'box2');
