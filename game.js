@@ -52,11 +52,11 @@ function addLastItems() {
   createItem(430, 291, 'letter-red');
   createItem(300, 241, 'letter-red');
   // third hall items
-  createItem(690, 447, 'letter-red');
+  createItem(680, 447, 'letter-red');
   createItem(548, 363, 'letter-red');
-  createItem(690, 228, 'letter-red');
+  createItem(680, 228, 'letter-red');
   createItem(548, 220, 'letter-red');
-  createItem(662, 135, 'letter-red');
+  createItem(662, 175, 'letter-red');
   createItem(548, 84, 'letter-red');
 
 }
