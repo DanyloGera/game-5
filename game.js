@@ -118,7 +118,7 @@ window.onload = function () {
 
 
     //Load spritesheets
-    game.load.spritesheet('player', 'chalkers.png', { frameWidth: 40, frameHeight: 50 });
+    game.load.spritesheet('player', 'chalkers.png',  48, 62 );
     // game.load.spritesheet('coin1', 'coin.png', 36, 44);
     // game.load.spritesheet('openbox', 'box3.png', { frameWidth: 50, frameHeight: 50 });
     game.load.spritesheet('letter', 'letter1.png', 36, 44);
