@@ -203,7 +203,7 @@ window.onload = function () {
     }
 
     if (jumpButton.isDown && (player.body.onFloor() || player.body.touching.down)) {
-      player.body.velocity.y = -340;
+      player.body.velocity.y = -300;
     }
     // when the player winw the game
     if (won) {
