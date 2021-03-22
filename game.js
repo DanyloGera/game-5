@@ -115,7 +115,7 @@ function createItem(left, top, image) {
 // create the winning badge and add to screen
 function createBadge() {
   badges = game.add.physicsGroup();
-  var badge = badges.create(88, 457, 'badge');
+  var badge = badges.create(720, 35, 'badge');
   badge.animations.add('spin');
   badge.animations.play('spin', 10, true);
 }
