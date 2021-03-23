@@ -41,7 +41,7 @@ function SecondHallItems() {
   createItem(662, 135, 'letter-blue');
   createItem(548, 84, 'letter-blue');
 
-  createItem(759, 36, 'letter2');
+  createItem(759, 36, 'letter3');
 
 
 }
