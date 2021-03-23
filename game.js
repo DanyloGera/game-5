@@ -69,7 +69,7 @@ function addPlatforms() {
   platforms.create(0, 565, 'platform1');
   platforms.create(0, 40, 'wall1');
   platforms.create(247, 117, 'wall2');
-  platforms.create(494, 70, 'wall3');
+  platforms.create(494, 0, 'wall3');
   platforms.create(720, 85, 'wall4');
 
   // first boxes
@@ -96,7 +96,7 @@ function addSecondBox() {
   platforms.create(0, 565, 'platform1');
   platforms.create(0, 40, 'wall1');
   platforms.create(247, 117, 'wall2');
-  platforms.create(494, 70, 'wall3');
+  platforms.create(494, 0, 'wall3');
   platforms.create(720, 85, 'wall4');
 
 //start 3 boxes
