@@ -56,7 +56,7 @@ function addLastItems() {
   createItem(548, 363, 'letter-red');
   createItem(680, 278, 'letter-red');
   createItem(548, 220, 'letter-red');
-  createItem(662, 135, 'letter-red');
+  createItem(667, 135, 'letter-red');
   createItem(548, 84, 'letter-red');
 
 }
