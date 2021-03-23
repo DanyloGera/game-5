@@ -10,7 +10,7 @@ var text;
 var winningMessage;
 var won = false;
 var currentScore = 230;
-var winningScore = 360;
+var winningScore = 380;
 
 // add collectable items to the game
 function addItems() {
