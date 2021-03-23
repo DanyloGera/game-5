@@ -143,7 +143,7 @@ function itemHandler(player, item) {
   }else if (item.key === 'letter-blue') {
      currentScore = currentScore + 10;
   }else if (item.key === 'letter-red') {
-     currentScore = currentScore - 10;
+     alert("Червоний лист!");
   }else if (item.key === 'letter2') {
     currentScore = currentScore + 10;
      addLastItems();
