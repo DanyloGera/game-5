@@ -33,6 +33,8 @@ function SecondHallItems() {
   createItem(300, 233, 'letter-red');
   createItem(461, 174, 'letter-blue');
   createItem(366, 331, 'letter-blue');
+  //
+  createItem(504, 501, 'letter-blue');
   // third hall items
   createItem(690, 447, 'letter-blue');
   createItem(548, 363, 'letter-blue');
