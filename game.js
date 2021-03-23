@@ -142,7 +142,7 @@ function itemHandler(player, item) {
      addNextItems();
   }else if (item.key === 'letter-blue') {
      currentScore = currentScore + 10;
-  }else if (item.key === ' letter-red') {
+  }else if (item.key === 'letter-red') {
      currentScore = currentScore - 10;
   }else if (item.key === 'letter2') {
     currentScore = currentScore + 10;
