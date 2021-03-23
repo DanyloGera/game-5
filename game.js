@@ -25,8 +25,6 @@ function addItems() {
 
 function SecondHallItems() {
   items = game.add.physicsGroup();
-
-
 // second hall items
   createItem(325, 134, 'letter-red');
   createItem(430, 291, 'letter-red');
@@ -34,7 +32,11 @@ function SecondHallItems() {
   createItem(461, 174, 'letter-blue');
   createItem(366, 331, 'letter-blue');
   //
-  createItem(504, 501, 'letter-blue');
+  createItem(504, 501, 'letter3');
+}
+
+function ThirdHallItems() {
+  items = game.add.physicsGroup();
   // third hall items
   createItem(690, 447, 'letter-blue');
   createItem(548, 363, 'letter-blue');
@@ -42,11 +44,11 @@ function SecondHallItems() {
   createItem(548, 220, 'letter-blue');
   createItem(662, 135, 'letter-blue');
   createItem(548, 84, 'letter-blue');
-
-  createItem(759, 36, 'letter3');
-
-
+  //
+  createItem(759, 36, 'letter4');
 }
+
+
 function addLastItems() {
   items = game.add.physicsGroup();
   // third hall items
@@ -151,6 +153,9 @@ function itemHandler(player, item) {
      SecondHallItems();
   }else if (item.key === 'letter3') {
     currentScore = currentScore + 10;
+     ThirdHallItems();
+  }else if (item.key === 'letter4') {
+    currentScore = currentScore + 10;
      addLastItems();
   }if (currentScore === winningScore) {
       createBadge();
@@ -192,6 +197,7 @@ window.onload = function () {
     game.load.spritesheet('letter1', 'blue.png', 36, 44);
     game.load.spritesheet('letter2', 'blue.png', 36, 44);
     game.load.spritesheet('letter3', 'blue.png', 36, 44);
+    game.load.spritesheet('letter4', 'blue.png', 36, 44);
     game.load.spritesheet('letter-blue', 'blue.png', 36, 44);
     game.load.spritesheet('letter-red', 'red.png', 36, 44);
     // game.load.spritesheet('blue', 'envelope/blue.png', 36, 44);
