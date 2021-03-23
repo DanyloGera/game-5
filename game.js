@@ -72,7 +72,7 @@ function addPlatforms() {
 
   // first boxes
 
-platforms.create(80, 379, 'box');
+platforms.create(80, 389, 'box');
 platforms.create(217, 505, 'box');
 //third hall
 platforms.create(690, 503, 'box');
