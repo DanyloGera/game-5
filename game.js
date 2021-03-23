@@ -17,16 +17,16 @@ function addItems() {
   items = game.add.physicsGroup();
 
   createItem(210, 325, 'letter1');
-
+  createItem(80, 329, 'letter-blue');
+  createItem(217, 229, 'letter-blue');
+  createItem(80, 136, 'letter-blue');
 
 }
 
 function addNextItems() {
   items = game.add.physicsGroup();
 
-  createItem(80, 329, 'letter-blue');
-  createItem(217, 229, 'letter-blue');
-  createItem(80, 136, 'letter-blue');
+
 // second hall items
   createItem(325, 134, 'letter-red');
   createItem(430, 291, 'letter-red');
