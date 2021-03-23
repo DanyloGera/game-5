@@ -40,7 +40,7 @@ function ThirdHallItems() {
   // third hall items
   createItem(690, 447, 'letter-blue');
   createItem(548, 363, 'letter-blue');
-  createItem(690, 228, 'letter-blue');
+  createItem(690, 278, 'letter-blue');
   createItem(548, 220, 'letter-blue');
   createItem(662, 135, 'letter-blue');
   createItem(548, 84, 'letter-blue');
