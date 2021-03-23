@@ -98,14 +98,15 @@ function addSecondBox() {
   platforms.create(247, 117, 'wall2');
   platforms.create(494, 0, 'wall3');
   platforms.create(720, 85, 'wall4');
-  // first hall`s boxes
-  platforms.create(217, 505, 'box');
-platforms.create(217, 411, 'box');
-platforms.create(80, 497, 'box');
 
-platforms.create(80, 379, 'box');
+//start 3 boxes
+platforms.create(80, 389, 'box');
 platforms.create(217, 279, 'box');
 platforms.create(80, 186, 'box');
+// first hall`s boxes
+platforms.create(217, 505, 'box');
+platforms.create(217, 411, 'box');
+platforms.create(80, 497, 'box');
 // second hall
 platforms.create(301, 184, 'box2');
 platforms.create(301, 279, 'box');
