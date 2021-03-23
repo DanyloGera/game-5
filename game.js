@@ -20,7 +20,7 @@ function addItems() {
   createItem(80, 329, 'letter-blue');
   createItem(217, 229, 'letter-blue');
   createItem(80, 136, 'letter-blue');
-  createItem(257, 67, 'letter-blue');
+  createItem(257, 67, 'letter2');
 }
 
 function SecondHallItems() {
