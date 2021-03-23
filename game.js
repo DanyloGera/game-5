@@ -23,7 +23,7 @@ function addItems() {
   createItem(257, 67, 'letter-blue');
 }
 
-function addNextItems() {
+function SecondHallItems() {
   items = game.add.physicsGroup();
 
 
@@ -145,6 +145,9 @@ function itemHandler(player, item) {
      alert("Червоний лист!");
   }else if (item.key === 'letter2') {
     currentScore = currentScore + 10;
+     SecondHallItems();
+  }else if (item.key === 'letter3') {
+    currentScore = currentScore + 10;
      addLastItems();
   }if (currentScore === winningScore) {
       createBadge();
@@ -185,6 +188,7 @@ window.onload = function () {
     // game.load.spritesheet('openbox', 'box3.png', { frameWidth: 50, frameHeight: 50 });
     game.load.spritesheet('letter1', 'blue.png', 36, 44);
     game.load.spritesheet('letter2', 'blue.png', 36, 44);
+    game.load.spritesheet('letter3', 'blue.png', 36, 44);
     game.load.spritesheet('letter-blue', 'blue.png', 36, 44);
     game.load.spritesheet('letter-red', 'red.png', 36, 44);
     // game.load.spritesheet('blue', 'envelope/blue.png', 36, 44);
