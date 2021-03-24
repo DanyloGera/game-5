@@ -148,7 +148,7 @@ function itemHandler(player, item) {
      currentScore = currentScore + 10;
   }else if (item.key === 'letter-red') {
      alert("Червоний лист!");
-     // window.location.reload(true);
+     window.location.reload(true);
   }else if (item.key === 'letter2') {
     currentScore = currentScore + 10;
      SecondHallItems();
