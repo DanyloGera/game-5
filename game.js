@@ -72,33 +72,6 @@ function addPlatforms() {
   platforms.create(494, 0, 'wall3');
   platforms.create(720, 85, 'wall4');
 
-  // first boxes
-
-platforms.create(80, 369, 'box');
-platforms.create(217, 505, 'box');
-//third hall
-platforms.create(690, 503, 'box');
-platforms.create(548, 413, 'box3');
-platforms.create(690, 338, 'box');
-platforms.create(548, 270, 'box');
-platforms.create(662, 185, 'box3');
-platforms.create(548, 134, 'box');
-// second hall
-platforms.create(301, 184, 'box2');
-platforms.create(301, 279, 'box');
-platforms.create(406, 341, 'box2');
-
-  platforms.setAll('body.immovable', true);
-}
-function addSecondBox() {
-  platforms = game.add.physicsGroup();
-//walls
-  platforms.create(0, 565, 'platform1');
-  platforms.create(0, 40, 'wall1');
-  platforms.create(247, 117, 'wall2');
-  platforms.create(494, 0, 'wall3');
-  platforms.create(720, 85, 'wall4');
-
 //start 3 boxes
 platforms.create(80, 369, 'box');
 platforms.create(217, 279, 'box');
@@ -123,6 +96,7 @@ platforms.create(548, 134, 'box');
 }
 
 
+
 // create a single animated item and add to screen
 function createItem(left, top, image) {
   var item = items.create(left, top, image);
@@ -143,7 +117,6 @@ function itemHandler(player, item) {
   item.kill();
  if (item.key === 'letter1') {
      currentScore = currentScore + 10;
-     addSecondBox();
   }else if (item.key === 'letter-blue') {
      currentScore = currentScore + 10;
   }else if (item.key === 'letter-red') {
@@ -194,7 +167,7 @@ window.onload = function () {
     //Load spritesheets
     game.load.spritesheet('player', 'chalkers.png',  48, 62 );
 
-  
+
     game.load.spritesheet('letter1', 'blue.png', 36, 44);
     game.load.spritesheet('letter2', 'blue.png', 36, 44);
     game.load.spritesheet('letter3', 'blue.png', 36, 44);
