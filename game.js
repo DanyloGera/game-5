@@ -79,7 +79,7 @@ platforms.create(80, 186, 'box');
 // first hall`s boxes
 platforms.create(217, 505, 'box');
 platforms.create(217, 411, 'box');
-platforms.create(80, 497, 'box');
+
 // second hall
 platforms.create(301, 184, 'box2');
 platforms.create(301, 279, 'box');
