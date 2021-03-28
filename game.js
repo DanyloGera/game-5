@@ -193,32 +193,18 @@ window.onload = function () {
 
     //Load spritesheets
     game.load.spritesheet('player', 'chalkers.png',  48, 62 );
-    // game.load.spritesheet('coin1', 'coin.png', 36, 44);
-    // game.load.spritesheet('openbox', 'box3.png', { frameWidth: 50, frameHeight: 50 });
+
+  
     game.load.spritesheet('letter1', 'blue.png', 36, 44);
     game.load.spritesheet('letter2', 'blue.png', 36, 44);
     game.load.spritesheet('letter3', 'blue.png', 36, 44);
     game.load.spritesheet('letter4', 'blue.png', 36, 44);
     game.load.spritesheet('letter-blue', 'blue.png', 36, 44);
     game.load.spritesheet('letter-red', 'red.png', 36, 44);
-    // game.load.spritesheet('blue', 'envelope/blue.png', 36, 44);
-    // game.load.spritesheet('yellow', 'envelope/yellow.png', 36, 44);
-    // game.load.spritesheet('green', 'envelope/green.png', 36, 44);
-    // game.load.spritesheet('red', 'envelope/red.png', 36, 44);
-    // game.load.spritesheet('violet', 'envelope/violet.png', 36, 44);
-    // game.load.spritesheet('orange', 'envelope/orange.png', 36, 44);
-
-
-
-
-
-
-
 
 
     game.load.spritesheet('badge', 'badge.png', 42, 54);
-    // game.load.spritesheet('poison', 'poison.png', 32, 32);
-    // game.load.spritesheet('star', 'star.png', 32, 32);
+
   }
 
   //timer
