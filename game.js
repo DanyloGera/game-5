@@ -73,7 +73,7 @@ function addPlatforms() {
   platforms.create(720, 85, 'wall4');
 
 //start 3 boxes
-platforms.create(80, 379, 'box');
+platforms.create(80, 399, 'box');
 platforms.create(217, 279, 'box');
 platforms.create(80, 186, 'box');
 // first hall`s boxes
