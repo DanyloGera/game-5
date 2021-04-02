@@ -137,20 +137,25 @@ function itemHandler(player, item) {
   }else if (item.key === 'letter4') {
     currentScore = currentScore + 10;
      addLastItems();
-  }if (currentScore === winningScore) {
+  }else if (item.key === 'star') {
+    var btn = document.getElementById('btn-next');
+    btn.removeAttribute("disabled");
+    btn.style.border = "2px solid #000";
+  }
+  if (currentScore === winningScore) {
     game.add.sprite(521, 480, 'gamemachine');
 addStar();
   }
 }
 
 // when the player collects the badge at the end of the game
-function badgeHandler(player, badge) {
-  badge.kill();
-  var btn = document.getElementById('btn-next');
-  btn.removeAttribute("disabled");
-  btn.style.border = "2px solid #000";
-  won = true;
-}
+// function badgeHandler(player, badge) {
+//   badge.kill();
+//   var btn = document.getElementById('btn-next');
+//   btn.removeAttribute("disabled");
+//   btn.style.border = "2px solid #000";
+//   won = true;
+// }
 
 // setup game when the web page loads
 window.onload = function () {
