@@ -112,6 +112,12 @@ function createBadge() {
   badge.animations.play('spin', 10, true);
 }
 
+//create star
+function addStar() {
+  items = game.add.physicsGroup();
+  createItem(10, 240, 'star');
+}
+
 // when the player collects an item on the screen
 function itemHandler(player, item) {
   item.kill();
@@ -132,7 +138,8 @@ function itemHandler(player, item) {
     currentScore = currentScore + 10;
      addLastItems();
   }if (currentScore === winningScore) {
-      createBadge();
+    game.add.sprite(521, 497, 'gamemachine');
+addStar();
   }
 }
 
@@ -181,6 +188,8 @@ window.onload = function () {
 
     game.load.spritesheet('badge', 'badge.png', 42, 54);
 
+    game.load.spritesheet('star', 'star.png', 32, 32);
+    game.load.spritesheet('gamemachine', 'gamemachine.png', { frameWidth: 49, frameHeight: 85 });
   }
 
   //timer
