@@ -107,16 +107,16 @@ function createItem(left, top, image) {
 // create the winning badge and add to screen
 function createBadge() {
   badges = game.add.physicsGroup();
-  var badge = badges.create(521, 497, 'badge');
+  var badge = badges.create(571, 530, 'star');
   badge.animations.add('spin');
   badge.animations.play('spin', 10, true);
 }
 
 //create star
-function addStar() {
-  items = game.add.physicsGroup();
-  createItem(571, 530, 'star');
-}
+// function addStar() {
+//   items = game.add.physicsGroup();
+//   createItem(571, 530, 'star');
+// }
 
 // when the player collects an item on the screen
 function itemHandler(player, item) {
@@ -137,14 +137,10 @@ function itemHandler(player, item) {
   }else if (item.key === 'letter4') {
     currentScore = currentScore + 10;
      addLastItems();
-  }else if (item.key === 'star') {
-    var btn = document.getElementById('btn-next');
-    btn.removeAttribute("disabled");
-    btn.style.border = "2px solid #000";
   }
   if (currentScore === winningScore) {
     game.add.sprite(521, 480, 'gamemachine');
-addStar();
+createBadge();
   }
 }
 
