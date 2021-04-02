@@ -115,7 +115,7 @@ function createBadge() {
 //create star
 function addStar() {
   items = game.add.physicsGroup();
-  createItem(10, 240, 'star');
+  createItem(571, 530, 'star');
 }
 
 // when the player collects an item on the screen
