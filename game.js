@@ -138,7 +138,7 @@ function itemHandler(player, item) {
     currentScore = currentScore + 10;
      addLastItems();
   }if (currentScore === winningScore) {
-    game.add.sprite(521, 497, 'gamemachine');
+    game.add.sprite(521, 480, 'gamemachine');
 addStar();
   }
 }
