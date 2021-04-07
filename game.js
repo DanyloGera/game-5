@@ -151,6 +151,7 @@ function badgeHandler(player, badge) {
   btn.removeAttribute("disabled");
   btn.style.border = "2px solid #000";
   won = true;
+  window.location.href="https://danylogera.github.io/arkanoid/";
 }
 
 // setup game when the web page loads
