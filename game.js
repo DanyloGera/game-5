@@ -148,7 +148,6 @@ createBadge();
 function badgeHandler(player, badge) {
   badge.kill();
   won = true;
-  window.location.href="https://danylogera.github.io/arkanoid/";
 }
 
 // setup game when the web page loads
