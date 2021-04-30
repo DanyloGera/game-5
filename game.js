@@ -139,9 +139,8 @@ function itemHandler(player, item) {
      addLastItems();
   }
   if (currentScore === winningScore) {
-    createBadge();
     game.add.sprite(375, 495, 'gamemachine');
-
+createBadge();
   }
 }
 
