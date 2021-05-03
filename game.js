@@ -45,7 +45,7 @@ function ThirdHallItems() {
   createItem(662, 135, 'letter-blue');
   createItem(548, 84, 'letter-blue');
   //
-  createItem(759, 36, 'letter4');
+  createItem(759, 33, 'letter4');
 }
 
 
