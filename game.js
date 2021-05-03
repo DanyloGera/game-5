@@ -70,7 +70,7 @@ function addPlatforms() {
   platforms.create(0, 40, 'wall1');
   platforms.create(247, 117, 'wall2');
   platforms.create(494, 0, 'wall3');
-  platforms.create(720, 85, 'wall4');
+  platforms.create(720, 78, 'wall4');
 
 //start 3 boxes
 platforms.create(80, 354, 'box');
