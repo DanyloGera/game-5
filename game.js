@@ -126,7 +126,7 @@ function itemHandler(player, item) {
   }else if (item.key === 'letter-blue') {
      currentScore = currentScore + 10;
   }else if (item.key === 'letter-red') {
-     alert("Червоний лист!");
+     alert("Harmful effects of inaccurate information");
      window.location.reload(true);
   }else if (item.key === 'letter2') {
     currentScore = currentScore + 10;
