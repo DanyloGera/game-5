@@ -56,7 +56,7 @@ background-image: linear-gradient(to left bottom, #8fcbca, #88c3c9, #83bac7, #80
 }
 
 .callout-container {
-  padding: 20px 70px 55px 70px;
+  padding: 20px 60px 55px 60px;
   background-color: #ccc;
   color: black;
   text-align: center;
@@ -95,5 +95,5 @@ top: 500px;
     text-align: center;
 }
 b {
-  color: red;
+  color: #DC0202;
 }
