@@ -27,7 +27,7 @@ function SecondHallItems() {
   items = game.add.physicsGroup();
 // second hall items
   createItem(325, 134, 'letter-red');
-  createItem(430, 291, 'letter-red');
+  createItem(435, 291, 'letter-red');
   createItem(300, 233, 'letter-red');
   createItem(461, 174, 'letter-blue');
   createItem(366, 331, 'letter-blue');
