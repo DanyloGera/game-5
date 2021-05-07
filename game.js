@@ -84,7 +84,7 @@ platforms.create(80, 500, 'box');
 platforms.create(301, 184, 'box2');
 platforms.create(301, 279, 'box');
 platforms.create(406, 341, 'box2');
-platforms.create(301, 455, 'box');
+platforms.create(301, 458, 'box');
 // third hall
 platforms.create(690, 503, 'box');
 platforms.create(548, 413, 'box3');
