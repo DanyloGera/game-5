@@ -112,11 +112,7 @@ function createBadge() {
   badge.animations.play('spin', 10, true);
 }
 
-//create star
-// function addStar() {
-//   items = game.add.physicsGroup();
-//   createItem(571, 530, 'star');
-// }
+
 
 //check score
 function Check() {
@@ -218,7 +214,6 @@ window.onload = function () {
 
   // initial game set up
   function create() {
-    // alert("Прочитайте завдання, закрийте його на хрестик і грайте!");
     timer1();
     this.add.image(0, 0, 'background');
 
