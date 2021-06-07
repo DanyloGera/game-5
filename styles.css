@@ -2,7 +2,6 @@ html {
 background-image: linear-gradient(to left bottom, #8fcbca, #88c3c9, #83bac7, #80b2c3, #7ea9bf, #7ba9bf, #77aabe, #74aabd, #70b3bd, #73bbb9, #7dc3b1, #8ec9a8);
  }
  canvas {
-    margin: auto;
     box-shadow: 0 0  20px 10px #234662;
     border-radius: 10px;
   }
