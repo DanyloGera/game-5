@@ -101,15 +101,24 @@ background-image: linear-gradient(to left bottom, #8fcbca, #88c3c9, #83bac7, #80
 /* time */
 .timer-wrapper {
   position: absolute;
-top: 500px;
+top: 90%;
+display: flex;
+justify-content: center;
+
+width: 100%;
+position: absolute;
 }
+
 .timer {
-  width: 150px;
   background-color: #FEC75E;
-  padding: 20px;
-  border: 2px solid #000;
-  border-radius: 10px;
-    text-align: center;
+      padding: 20px;
+      border: 2px solid #000;
+      border-radius: 10px;
+      font-family: 'DotGothic16', sans-serif;
+      font-size: 10pt;
+      max-width: 90%;
+      height: 100%;
+      text-align: center;
 }
 b {
   color: #DC0202;
