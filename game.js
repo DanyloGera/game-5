@@ -52,11 +52,11 @@ function ThirdHallItems() {
 function addLastItems() {
   items = game.add.physicsGroup();
   // third hall items
-  createItem(680, 447, 'letter-red');
+  createItem(683, 447, 'letter-red');
   createItem(548, 363, 'letter-red');
-  createItem(680, 278, 'letter-red');
+  createItem(683, 278, 'letter-red');
   createItem(548, 220, 'letter-red');
-  createItem(680, 135, 'letter-red');
+  createItem(683, 135, 'letter-red');
   createItem(548, 84, 'letter-red');
 
 }
