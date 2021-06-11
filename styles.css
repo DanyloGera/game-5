@@ -10,7 +10,7 @@ background-image: linear-gradient(to left bottom, #8fcbca, #88c3c9, #83bac7, #80
   justify-content: flex-start;
 
   }
-.row1-wrap{
+  .row1-wrap{
     position: absolute;
       height: 95%;
     width: 20%;
@@ -19,7 +19,7 @@ background-image: linear-gradient(to left bottom, #8fcbca, #88c3c9, #83bac7, #80
     display: flex;
     justify-content: flex-end;
   }
-.row2-wrap{
+  .row2-wrap{
     position: absolute;
       height: 95%;
     width: 20%;
@@ -67,26 +67,30 @@ background-image: linear-gradient(to left bottom, #8fcbca, #88c3c9, #83bac7, #80
         height: 100%;
   }
 
+
+
 .container {
   display: flex;
   justify-content: center;
 }
 .callout {
   position: fixed;
-    width: 50%;
+      width: 55%;
+      top: 2%;
+    max-width: 800px;
+
 }
 
 .callout-header {
-  padding: 25px 15px;
+  padding: 25px 0;
   background: #555;
-  font-size: 40px;
+  font-size: 26pt;
   color: white;
   text-align: center;
-
 }
 
 .callout-container {
-  padding: 20px 60px 55px 60px;
+  padding: 10px 60px 30px 60px;
   background-color: #ccc;
   color: black;
   text-align: center;
