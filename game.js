@@ -9,8 +9,8 @@ var jumpButton;
 var text;
 var winningMessage;
 var won = false;
-var currentScore = 250;
-var winningScore = 400;
+var currentScore = 440;
+var winningScore = 590;
 
 // add collectable items to the game
 function addItems() {
