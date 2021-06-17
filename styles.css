@@ -140,3 +140,7 @@ position: absolute;
 b {
   color: #DC0202;
 }
+a{
+  text-decoration: none;
+  color: #000;
+}
